@@ -422,10 +422,10 @@
   <figure class="gallery-item">
     <img src="/content/portfolio/posv-2.jpg" alt="Img2">
   </figure>
-    <figure class="gallery-item">
+  <figure class="gallery-item">
     <img src="/content/portfolio/posv-3.jpg" alt="Img2">
   </figure>
-      <figure class="gallery-item">
+  <figure class="gallery-item">
     <img src="/content/portfolio/posv-4.jpg" alt="Img2">
   </figure>
 </section>
@@ -439,10 +439,10 @@
   <figure class="gallery-item">
     <img src="/content/portfolio/hpk-2024-2.jpg" alt="Img2">
   </figure>
-    <figure class="gallery-item">
+  <figure class="gallery-item">
     <img src="/content/portfolio/hpk-2024-3.jpg" alt="Img2">
   </figure>
-      <figure class="gallery-item">
+  <figure class="gallery-item">
     <img src="/content/portfolio/hpk-2024-4.jpg" alt="Img2">
   </figure>
 </section>
@@ -452,6 +452,7 @@
     grid-template-columns: repeat(auto-fill, minmax(500px, 1fr)); /* Колонки, що адаптуються до ширини */
     gap: 10px;
     justify-items: center;
+    padding: 0 20px; /* Додаємо паддінги зліва і справа для великих екранів */
   }
 
   .gallery-item {
@@ -474,6 +475,7 @@
     .gallery {
       grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
       gap: 8px; /* Зменшуємо відстань між картинками */
+      padding: 0 10px; /* Маленькі відступи справа та зліва на мобільних пристроях */
     }
 
     .gallery-item img {
@@ -486,6 +488,7 @@
     .gallery {
       grid-template-columns: 1fr;
       gap: 5px; /* Зменшуємо відстань між картинками */
+      padding: 0 10px; /* Маленькі відступи справа та зліва */
     }
 
     .gallery-item img {
