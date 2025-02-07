@@ -822,50 +822,55 @@
 </section>
 <style>
   .gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr)); /* Колонки, що адаптуються до ширини */
-    gap: 10px;
-    justify-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; /* Основний відступ */
   }
 
   .gallery-item {
+    flex: 1 1 500px;
+    max-width: 100%;
     border-radius: 8px;
     overflow: hidden;
-    min-width: 500px; /* Мінімальна ширина контейнера */
-    margin: 0; /* Видаляємо зайву відстань */
   }
 
   .gallery-item img {
     width: 100%;
     height: auto;
     display: block;
-    min-width: 500px; 
-    border-radius: 8px; 
+    border-radius: 8px;
   }
-
 
   /* Адаптація для мобільних пристроїв */
   @media (max-width: 768px) {
     .gallery {
-      grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
-      gap: 8px; 
+      gap: 6px; /* Мінімальний відступ */
+    }
+
+    .gallery-item {
+      flex: 1 1 230px;
+      margin: 0;
     }
 
     .gallery-item img {
-      min-width: 98%; 
-      border-radius: 5px; 
+      border-radius: 5px;
     }
   }
 
   @media (max-width: 480px) {
     .gallery {
-      grid-template-columns: 1fr;
-      gap: 5px; 
+      flex-direction: row;
+      gap: 10px; /* Мінімальний відступ */
+    }
+
+    .gallery-item {
+      flex: 1 1 100%;
+      margin: 0;
     }
 
     .gallery-item img {
-      min-width: 98%; 
-      border-radius: 5px; 
+      border-radius: 5px;
     }
   }
 </style>
