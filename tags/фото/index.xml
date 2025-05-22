@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Фото on Broniev.jpg</title>
-    <link>https://bronievjpg.github.io/tags/%D1%84%D0%BE%D1%82%D0%BE/</link>
+    <link>http://localhost:1313/tags/%D1%84%D0%BE%D1%82%D0%BE/</link>
     <description>Recent content in Фото on Broniev.jpg</description>
     <generator>Hugo</generator>
     <language>ua</language>
     <copyright>©Broniev 2025</copyright>
     <lastBuildDate>Thu, 23 Jan 2025 20:50:58 +0200</lastBuildDate>
-    <atom:link href="https://bronievjpg.github.io/tags/%D1%84%D0%BE%D1%82%D0%BE/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%D1%84%D0%BE%D1%82%D0%BE/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Авто</title>
-      <link>https://bronievjpg.github.io/posts/cars/</link>
+      <link>http://localhost:1313/posts/cars/</link>
       <pubDate>Thu, 23 Jan 2025 20:50:58 +0200</pubDate>
-      <guid>https://bronievjpg.github.io/posts/cars/</guid>
+      <guid>http://localhost:1313/posts/cars/</guid>
       <description></description>
     </item>
   </channel>
