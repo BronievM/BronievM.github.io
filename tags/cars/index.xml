@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cars on Broniev.jpg - Макс, фотограф (Ярмолинці/Хмельницький/Київ)</title>
-    <link>http://localhost:1313/tags/cars/</link>
+    <link>https://bronievm.github.io/tags/cars/</link>
     <description>Recent content in Cars on Broniev.jpg - Макс, фотограф (Ярмолинці/Хмельницький/Київ)</description>
     <generator>Hugo</generator>
     <language>ua</language>
     <copyright>©Maksym Kulikov (aka Broniev), 2025</copyright>
-    <atom:link href="http://localhost:1313/tags/cars/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bronievm.github.io/tags/cars/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Авто</title>
-      <link>http://localhost:1313/portfolio/cars/</link>
+      <link>https://bronievm.github.io/portfolio/cars/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/portfolio/cars/</guid>
+      <guid>https://bronievm.github.io/portfolio/cars/</guid>
       <description></description>
     </item>
   </channel>
