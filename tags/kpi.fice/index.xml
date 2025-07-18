@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>KPI.FICE on Broniev.jpg - Макс, фотограф (Ярмолинці/Хмельницький/Київ)</title>
-    <link>https://bronievm.github.io/tags/kpi.fice/</link>
+    <link>http://localhost:1313/tags/kpi.fice/</link>
     <description>Recent content in KPI.FICE on Broniev.jpg - Макс, фотограф (Ярмолинці/Хмельницький/Київ)</description>
     <generator>Hugo</generator>
     <language>ua</language>
     <copyright>©Maksym Kulikov (aka Broniev), 2025</copyright>
     <lastBuildDate>Sat, 14 Sep 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://bronievm.github.io/tags/kpi.fice/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/kpi.fice/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Посвята в першокурсники КПІ ФІОТ (2024)</title>
-      <link>https://bronievm.github.io/portfolio/kpi-posvyata-2024/</link>
+      <link>http://localhost:1313/portfolio/kpi-posvyata-2024/</link>
       <pubDate>Sat, 14 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://bronievm.github.io/portfolio/kpi-posvyata-2024/</guid>
+      <guid>http://localhost:1313/portfolio/kpi-posvyata-2024/</guid>
       <description></description>
     </item>
   </channel>
