@@ -65,12 +65,16 @@
     ></script>
   
   
-  <meta
-    name="description"
-    content="
-      md: @w.fly.agaric, косплей на Чорновода
-    "
-  />
+    
+
+      <meta name="description" content="md: @w.fly.agaric, косплей на Чорновода">
+      <meta property="og:description" content="md: @w.fly.agaric, косплей на Чорновода">
+      <meta name="twitter:description" content="md: @w.fly.agaric, косплей на Чорновода">
+
+      <meta property="og:title" content="Анна">
+      <meta property="og:url" content="https://bronievm.github.io/portfolio/w.fly.agaric/">
+      <meta name="twitter:card" content="summary" />
+       
   
   
     <meta name="robots" content="all" />
@@ -893,11 +897,10 @@ window.addEventListener('DOMContentLoaded', () => {
   if (!gallery) return;
 
   $(gallery).justifiedGallery({
-    rowHeight: 450,
-    maxRowHeight: 580,
+    rowHeight: 400,
+    maxRowHeight: 600,
     justifyThreshold: 0.95,
     margins: 5,
-    lastRow: 'nojustify',
     captions: false,
     lastRow: 'justify',
     rel: 'gallery1'

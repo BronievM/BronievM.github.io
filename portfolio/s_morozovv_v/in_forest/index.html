@@ -65,12 +65,16 @@
     ></script>
   
   
-  <meta
-    name="description"
-    content="
-      md: @s_morozovv_v
-    "
-  />
+    
+
+      <meta name="description" content="md: @s_morozovv_v">
+      <meta property="og:description" content="md: @s_morozovv_v">
+      <meta name="twitter:description" content="md: @s_morozovv_v">
+
+      <meta property="og:title" content="Сашко (у лісі)">
+      <meta property="og:url" content="https://bronievm.github.io/portfolio/s_morozovv_v/in_forest/">
+      <meta name="twitter:card" content="summary" />
+       
   
   
     <meta name="robots" content="all" />
@@ -856,11 +860,10 @@ window.addEventListener('DOMContentLoaded', () => {
   if (!gallery) return;
 
   $(gallery).justifiedGallery({
-    rowHeight: 450,
-    maxRowHeight: 580,
+    rowHeight: 400,
+    maxRowHeight: 600,
     justifyThreshold: 0.95,
     margins: 5,
-    lastRow: 'nojustify',
     captions: false,
     lastRow: 'justify',
     rel: 'gallery1'

@@ -65,12 +65,16 @@
     ></script>
   
   
-  <meta
-    name="description"
-    content="
-      md: @silence._d
-    "
-  />
+    
+
+      <meta name="description" content="md: @silence._d">
+      <meta property="og:description" content="md: @silence._d">
+      <meta name="twitter:description" content="md: @silence._d">
+
+      <meta property="og:title" content="Ірина (в бібліотеці)">
+      <meta property="og:url" content="https://bronievm.github.io/portfolio/silence._d/">
+      <meta name="twitter:card" content="summary" />
+       
   
   
     <meta name="robots" content="all" />
@@ -813,11 +817,10 @@ window.addEventListener('DOMContentLoaded', () => {
   if (!gallery) return;
 
   $(gallery).justifiedGallery({
-    rowHeight: 450,
-    maxRowHeight: 580,
+    rowHeight: 400,
+    maxRowHeight: 600,
     justifyThreshold: 0.95,
     margins: 5,
-    lastRow: 'nojustify',
     captions: false,
     lastRow: 'justify',
     rel: 'gallery1'

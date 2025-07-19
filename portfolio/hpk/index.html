@@ -65,12 +65,16 @@
     ></script>
   
   
-  <meta
-    name="description"
-    content="
-      світлинки з різних подій
-    "
-  />
+    
+
+      <meta name="description" content="світлинки з різних подій">
+      <meta property="og:description" content="світлинки з різних подій">
+      <meta name="twitter:description" content="світлинки з різних подій">
+
+      <meta property="og:title" content="Деякі світлини з ХПФК (2024)">
+      <meta property="og:url" content="https://bronievm.github.io/portfolio/hpk/">
+      <meta name="twitter:card" content="summary" />
+       
   
   
     <meta name="robots" content="all" />
@@ -741,11 +745,10 @@ window.addEventListener('DOMContentLoaded', () => {
   if (!gallery) return;
 
   $(gallery).justifiedGallery({
-    rowHeight: 450,
-    maxRowHeight: 580,
+    rowHeight: 400,
+    maxRowHeight: 600,
     justifyThreshold: 0.95,
     margins: 5,
-    lastRow: 'nojustify',
     captions: false,
     lastRow: 'justify',
     rel: 'gallery1'

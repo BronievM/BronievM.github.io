@@ -65,12 +65,16 @@
     ></script>
   
   
-  <meta
-    name="description"
-    content="
-      Тутечки знімочки з цього фестивалю :)
-    "
-  />
+    
+
+      <meta name="description" content="Тутечки знімочки з цього фестивалю :)">
+      <meta property="og:description" content="Тутечки знімочки з цього фестивалю :)">
+      <meta name="twitter:description" content="Тутечки знімочки з цього фестивалю :)">
+
+      <meta property="og:title" content="Yarmfest #2022">
+      <meta property="og:url" content="https://bronievm.github.io/portfolio/yarmfest/">
+      <meta name="twitter:card" content="summary" />
+       
   
   
     <meta name="robots" content="all" />
@@ -813,11 +817,10 @@ window.addEventListener('DOMContentLoaded', () => {
   if (!gallery) return;
 
   $(gallery).justifiedGallery({
-    rowHeight: 450,
-    maxRowHeight: 580,
+    rowHeight: 400,
+    maxRowHeight: 600,
     justifyThreshold: 0.95,
     margins: 5,
-    lastRow: 'nojustify',
     captions: false,
     lastRow: 'justify',
     rel: 'gallery1'
