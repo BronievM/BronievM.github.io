@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>uk</language>
     <copyright>©Maksym Kulikov (aka Broniev), 2025</copyright>
-    <lastBuildDate>Thu, 17 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 06 Aug 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://bronievm.github.io/tags/people/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ольга</title>
+      <link>https://bronievm.github.io/portfolio/olga_yuskovaa/</link>
+      <pubDate>Wed, 06 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://bronievm.github.io/portfolio/olga_yuskovaa/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Випуск Магістрів (КПІ, ФІОТ, 2025)</title>
       <link>https://bronievm.github.io/portfolio/kpi-graduation-mag-25/</link>
@@ -56,13 +63,6 @@
       <link>https://bronievm.github.io/portfolio/kytsi/</link>
       <pubDate>Sun, 15 Sep 2024 00:00:00 +0000</pubDate>
       <guid>https://bronievm.github.io/portfolio/kytsi/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ольга</title>
-      <link>https://bronievm.github.io/portfolio/olga_yuskovaa/</link>
-      <pubDate>Sun, 15 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://bronievm.github.io/portfolio/olga_yuskovaa/</guid>
       <description></description>
     </item>
     <item>
