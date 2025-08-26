@@ -7,13 +7,27 @@
     <generator>Hugo</generator>
     <language>uk</language>
     <copyright>©Maksym Kulikov (aka Broniev), 2025</copyright>
-    <lastBuildDate>Sat, 28 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 17 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://bronievm.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Випуск Магістрів (КПІ, ФІОТ, 2025)</title>
+      <link>https://bronievm.github.io/portfolio/kpi-graduation-mag-25/</link>
+      <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://bronievm.github.io/portfolio/kpi-graduation-mag-25/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>KPI Abitfest 2025</title>
+      <link>https://bronievm.github.io/portfolio/kpi-abitfest-2025/</link>
+      <pubDate>Mon, 30 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://bronievm.github.io/portfolio/kpi-abitfest-2025/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>KPI COS FEST 2025</title>
-      <link>https://bronievm.github.io/portfolio/cosfest2025/</link>
+      <link>https://bronievm.github.io/portfolio/kpi-cosfest-25/</link>
       <pubDate>Sat, 28 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://bronievm.github.io/portfolio/cosfest2025/</guid>
+      <guid>https://bronievm.github.io/portfolio/kpi-cosfest-25/</guid>
       <description></description>
     </item>
     <item>
@@ -59,17 +73,17 @@
       <description></description>
     </item>
     <item>
-      <title>Посвята в першокурсники КПІ ФІОТ (2024)</title>
-      <link>https://bronievm.github.io/portfolio/kpi-posvyata-2024/</link>
+      <title>Посвята в першокурсники (КПІ, ФІОТ, 2024)</title>
+      <link>https://bronievm.github.io/portfolio/kpi-posvyata-24/</link>
       <pubDate>Sat, 14 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://bronievm.github.io/portfolio/kpi-posvyata-2024/</guid>
+      <guid>https://bronievm.github.io/portfolio/kpi-posvyata-24/</guid>
       <description></description>
     </item>
     <item>
       <title>Деякі світлини з ХПФК (2024)</title>
-      <link>https://bronievm.github.io/portfolio/hpk/</link>
+      <link>https://bronievm.github.io/portfolio/hpk-24/</link>
       <pubDate>Wed, 22 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://bronievm.github.io/portfolio/hpk/</guid>
+      <guid>https://bronievm.github.io/portfolio/hpk-24/</guid>
       <description></description>
     </item>
     <item>
@@ -154,6 +168,13 @@
       <link>https://bronievm.github.io/pricelist/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://bronievm.github.io/pricelist/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Прайслист</title>
+      <link>https://bronievm.github.io/prices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bronievm.github.io/prices/</guid>
       <description></description>
     </item>
   </channel>
