@@ -41,8 +41,8 @@
   <link
     type="text/css"
     rel="stylesheet"
-    href="/css/main.bundle.min.8831e4c05bf34fe91dc93100a13579733a8fe6e3d636268db8d8a3cf5f1b12f6.css"
-    integrity="sha256-iDHkwFvzT&#43;kdyTEAoTV5czqP5uPWNiaNuNijz18bEvY="
+    href="/css/main.bundle.min.c0531691c618688a5e168f905957c934fbe78d130348eaf4fc8075efd7067720.css"
+    integrity="sha256-wFMWkcYYaIpeFo&#43;QWVfJNPvnjRMDSOr0/IB179cGdyA="
   />
   
   
@@ -87,6 +87,7 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
+
   
   
   
@@ -223,7 +224,7 @@
       <header class="py-6 font-semibold text-neutral-900 dark:text-neutral sm:py-10 print:hidden">
   <nav class="flex items-start justify-between sm:items-center">
     
-    <div class="z-40 flex flex-row items-center">
+    <div class="flex flex-row items-center">
       
     <a href="/" class="mr-2">
       
@@ -239,98 +240,12 @@
 
     </div>
     
-      
-      <label id="menu-button" for="menu-controller" class="block sm:hidden">
-        <input type="checkbox" id="menu-controller" class="hidden" />
-        <div class="cursor-pointer hover:text-primary-600 dark:hover:text-primary-400">
-          <span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
-</span>
-        </div>
-        <div
-          id="menu-wrapper"
-          class="invisible fixed inset-0 z-30 m-auto h-full w-full cursor-default overflow-auto bg-neutral-100/50 opacity-0 backdrop-blur-sm transition-opacity dark:bg-neutral-900/50"
-        >
-          <ul
-            class="mx-auto flex w-full max-w-7xl list-none flex-col overflow-visible px-6 py-6 text-end sm:px-14 sm:py-10 sm:pt-10 md:px-24 lg:px-32"
-          >
-            <li class="mb-1">
-              <span class="cursor-pointer hover:text-primary-600 dark:hover:text-primary-400"
-                ><span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
-</span></span
-              >
-            </li>
-            
-              
-                
-                <li class="group mb-1">
-                  
-                    <a
-                      href="/"
-                      title="Головна"
-                      onclick="close_menu()"
-                      
-                      ><span
-                          class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
-                          >Головна</span
-                        >
-                      </a
-                    >
-                  
-                </li>
-              
-                
-                <li class="group mb-1">
-                  
-                    <a
-                      href="/portfolio/"
-                      title="Портфоліо"
-                      onclick="close_menu()"
-                      
-                      ><span
-                          class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
-                          >Портфоліо</span
-                        >
-                      </a
-                    >
-                  
-                </li>
-              
-                
-                <li class="group mb-1">
-                  
-                    <a
-                      href="/pricelist/"
-                      title="Прайс-лист"
-                      onclick="close_menu()"
-                      
-                      ><span
-                          class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
-                          >Прайс-лист</span
-                        >
-                      </a
-                    >
-                  
-                </li>
-              
-                
-                <li class="group mb-1">
-                  
-                    
-                    
-                  
-                </li>
-              
-              
-            
-          </ul>
-        </div>
-      </label>
-      
-      <ul class="hidden list-none flex-row text-end sm:flex">
+    
+      <ul class="flex list-none flex-col text-end sm:flex-row">
         
           
             
-            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0">
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
               
                 <a
                   href="/"
@@ -346,7 +261,7 @@
             </li>
           
             
-            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0">
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
               
                 <a
                   href="/portfolio/"
@@ -362,7 +277,7 @@
             </li>
           
             
-            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0">
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
               
                 <a
                   href="/pricelist/"
@@ -378,7 +293,7 @@
             </li>
           
             
-            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0">
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
               
                 
                 
@@ -386,7 +301,6 @@
             </li>
           
           
-
         
       </ul>
     
@@ -549,7 +463,7 @@
       target="_blank"
     >
       <img 
-        src="/portfolio/bratt_ka/DSC07729_hu8485154285692867814.jpg" 
+        src="/portfolio/bratt_ka/DSC07729_hu_f2fe11e33d226b0f.jpg" 
         width="533" 
         height="800" 
         loading="lazy"
@@ -567,7 +481,7 @@
       target="_blank"
     >
       <img 
-        src="/portfolio/bratt_ka/DSC07747_hu8882016581368961919.jpg" 
+        src="/portfolio/bratt_ka/DSC07747_hu_f561b25fd9f6bf36.jpg" 
         width="533" 
         height="800" 
         loading="lazy"
@@ -585,7 +499,7 @@
       target="_blank"
     >
       <img 
-        src="/portfolio/bratt_ka/DSC07825-7_hu2267660500542396305.jpg" 
+        src="/portfolio/bratt_ka/DSC07825-7_hu_d560e441052376e4.jpg" 
         width="640" 
         height="800" 
         loading="lazy"
@@ -603,7 +517,7 @@
       target="_blank"
     >
       <img 
-        src="/portfolio/bratt_ka/DSC07842_hu10295257584896437683.jpg" 
+        src="/portfolio/bratt_ka/DSC07842_hu_fedee92b2fd34ecc.jpg" 
         width="533" 
         height="800" 
         loading="lazy"
@@ -621,7 +535,7 @@
       target="_blank"
     >
       <img 
-        src="/portfolio/bratt_ka/DSC07851_hu13052589142064355037.jpg" 
+        src="/portfolio/bratt_ka/DSC07851_hu_c76b5b8d3e7b6003.jpg" 
         width="533" 
         height="800" 
         loading="lazy"
@@ -639,7 +553,7 @@
       target="_blank"
     >
       <img 
-        src="/portfolio/bratt_ka/DSC07869_hu5539753282742228645.jpg" 
+        src="/portfolio/bratt_ka/DSC07869_hu_a52deba1811a7256.jpg" 
         width="533" 
         height="800" 
         loading="lazy"
@@ -657,7 +571,7 @@
       target="_blank"
     >
       <img 
-        src="/portfolio/bratt_ka/DSC07874_hu2664140702083808303.jpg" 
+        src="/portfolio/bratt_ka/DSC07874_hu_13b9bd9597bbcb9f.jpg" 
         width="533" 
         height="800" 
         loading="lazy"
@@ -675,7 +589,7 @@
       target="_blank"
     >
       <img 
-        src="/portfolio/bratt_ka/DSC07913-8_hu12433694709679959329.jpg" 
+        src="/portfolio/bratt_ka/DSC07913-8_hu_d84dca0bd84948b2.jpg" 
         width="640" 
         height="800" 
         loading="lazy"
@@ -693,7 +607,7 @@
       target="_blank"
     >
       <img 
-        src="/portfolio/bratt_ka/DSC07923-9_hu16156283367660346852.jpg" 
+        src="/portfolio/bratt_ka/DSC07923-9_hu_515e305969dc968d.jpg" 
         width="640" 
         height="800" 
         loading="lazy"
@@ -711,7 +625,7 @@
       target="_blank"
     >
       <img 
-        src="/portfolio/bratt_ka/DSC07948_hu610867686617921080.jpg" 
+        src="/portfolio/bratt_ka/DSC07948_hu_73ea7b9f16b1dd60.jpg" 
         width="640" 
         height="800" 
         loading="lazy"
@@ -729,7 +643,7 @@
       target="_blank"
     >
       <img 
-        src="/portfolio/bratt_ka/DSC07964_hu17886339988599252091.jpg" 
+        src="/portfolio/bratt_ka/DSC07964_hu_803dba521a3b1052.jpg" 
         width="533" 
         height="800" 
         loading="lazy"
@@ -747,7 +661,7 @@
       target="_blank"
     >
       <img 
-        src="/portfolio/bratt_ka/DSC07980_hu3436624670370617420.jpg" 
+        src="/portfolio/bratt_ka/DSC07980_hu_a27ff9b81e53814d.jpg" 
         width="533" 
         height="800" 
         loading="lazy"
@@ -765,7 +679,7 @@
       target="_blank"
     >
       <img 
-        src="/portfolio/bratt_ka/DSC07985-10_hu13071206766094823567.jpg" 
+        src="/portfolio/bratt_ka/DSC07985-10_hu_d3963516c12d4328.jpg" 
         width="640" 
         height="800" 
         loading="lazy"
@@ -783,7 +697,7 @@
       target="_blank"
     >
       <img 
-        src="/portfolio/bratt_ka/DSC07997_hu9961811953175398061.jpg" 
+        src="/portfolio/bratt_ka/DSC07997_hu_d16b452ae4063a9d.jpg" 
         width="533" 
         height="800" 
         loading="lazy"
@@ -801,7 +715,7 @@
       target="_blank"
     >
       <img 
-        src="/portfolio/bratt_ka/DSC08009-11_hu3905126241064867375.jpg" 
+        src="/portfolio/bratt_ka/DSC08009-11_hu_3ed6dc314fef4641.jpg" 
         width="640" 
         height="800" 
         loading="lazy"
@@ -819,7 +733,7 @@
       target="_blank"
     >
       <img 
-        src="/portfolio/bratt_ka/DSC08018_hu16425326393688006278.jpg" 
+        src="/portfolio/bratt_ka/DSC08018_hu_bf838e87aa5e7905.jpg" 
         width="533" 
         height="800" 
         loading="lazy"
@@ -837,7 +751,7 @@
       target="_blank"
     >
       <img 
-        src="/portfolio/bratt_ka/DSC08046_hu4062263306811329708.jpg" 
+        src="/portfolio/bratt_ka/DSC08046_hu_3452f0a69ae1ad76.jpg" 
         width="533" 
         height="800" 
         loading="lazy"
@@ -855,7 +769,7 @@
       target="_blank"
     >
       <img 
-        src="/portfolio/bratt_ka/DSC08080_hu8953517562822549225.jpg" 
+        src="/portfolio/bratt_ka/DSC08080_hu_1fbed8c71890da2e.jpg" 
         width="533" 
         height="800" 
         loading="lazy"
@@ -873,7 +787,7 @@
       target="_blank"
     >
       <img 
-        src="/portfolio/bratt_ka/DSC08086-12_hu3422826028287941835.jpg" 
+        src="/portfolio/bratt_ka/DSC08086-12_hu_36511a1f93570f66.jpg" 
         width="533" 
         height="800" 
         loading="lazy"
@@ -891,7 +805,7 @@
       target="_blank"
     >
       <img 
-        src="/portfolio/bratt_ka/DSC08109-13_hu13774763379368373113.jpg" 
+        src="/portfolio/bratt_ka/DSC08109-13_hu_dbcd5f8b0c1871a2.jpg" 
         width="533" 
         height="800" 
         loading="lazy"
@@ -909,7 +823,7 @@
       target="_blank"
     >
       <img 
-        src="/portfolio/bratt_ka/DSC08129-14_hu13236001973486147530.jpg" 
+        src="/portfolio/bratt_ka/DSC08129-14_hu_3de7f59fc6889d6d.jpg" 
         width="640" 
         height="800" 
         loading="lazy"
@@ -927,7 +841,7 @@
       target="_blank"
     >
       <img 
-        src="/portfolio/bratt_ka/DSC08155-15_hu6920809141801464407.jpg" 
+        src="/portfolio/bratt_ka/DSC08155-15_hu_6388c009b043a229.jpg" 
         width="640" 
         height="800" 
         loading="lazy"
@@ -945,7 +859,7 @@
       target="_blank"
     >
       <img 
-        src="/portfolio/bratt_ka/DSC08166-16_hu9682665655123078475.jpg" 
+        src="/portfolio/bratt_ka/DSC08166-16_hu_a12e350834278a5f.jpg" 
         width="640" 
         height="800" 
         loading="lazy"
@@ -963,7 +877,7 @@
       target="_blank"
     >
       <img 
-        src="/portfolio/bratt_ka/DSC08204-17_hu10410292983043110270.jpg" 
+        src="/portfolio/bratt_ka/DSC08204-17_hu_818c17b7e4a9179f.jpg" 
         width="640" 
         height="800" 
         loading="lazy"
@@ -981,7 +895,7 @@
       target="_blank"
     >
       <img 
-        src="/portfolio/bratt_ka/DSC08236-19_hu394148105452057978.jpg" 
+        src="/portfolio/bratt_ka/DSC08236-19_hu_efd988f8a390db98.jpg" 
         width="640" 
         height="800" 
         loading="lazy"
@@ -999,7 +913,7 @@
       target="_blank"
     >
       <img 
-        src="/portfolio/bratt_ka/DSC08243_hu2662257909144118654.jpg" 
+        src="/portfolio/bratt_ka/DSC08243_hu_a69ff5506cd02b8e.jpg" 
         width="640" 
         height="800" 
         loading="lazy"
@@ -1095,8 +1009,8 @@ window.addEventListener('DOMContentLoaded', () => {
   if (!gallery) return;
 
   $(gallery).justifiedGallery({
-    rowHeight: 515,
-    maxRowHeight: 800,
+    rowHeight: 400,
+    maxRowHeight: 490,
     justifyThreshold: 0.95,
     margins: 5,
     captions: false,

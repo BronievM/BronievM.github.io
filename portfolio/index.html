@@ -41,8 +41,8 @@
   <link
     type="text/css"
     rel="stylesheet"
-    href="/css/main.bundle.min.8831e4c05bf34fe91dc93100a13579733a8fe6e3d636268db8d8a3cf5f1b12f6.css"
-    integrity="sha256-iDHkwFvzT&#43;kdyTEAoTV5czqP5uPWNiaNuNijz18bEvY="
+    href="/css/main.bundle.min.c0531691c618688a5e168f905957c934fbe78d130348eaf4fc8075efd7067720.css"
+    integrity="sha256-wFMWkcYYaIpeFo&#43;QWVfJNPvnjRMDSOr0/IB179cGdyA="
   />
   
   
@@ -88,6 +88,7 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
+
   
   
   
@@ -166,7 +167,7 @@
       <header class="py-6 font-semibold text-neutral-900 dark:text-neutral sm:py-10 print:hidden">
   <nav class="flex items-start justify-between sm:items-center">
     
-    <div class="z-40 flex flex-row items-center">
+    <div class="flex flex-row items-center">
       
     <a href="/" class="mr-2">
       
@@ -182,98 +183,12 @@
 
     </div>
     
-      
-      <label id="menu-button" for="menu-controller" class="block sm:hidden">
-        <input type="checkbox" id="menu-controller" class="hidden" />
-        <div class="cursor-pointer hover:text-primary-600 dark:hover:text-primary-400">
-          <span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
-</span>
-        </div>
-        <div
-          id="menu-wrapper"
-          class="invisible fixed inset-0 z-30 m-auto h-full w-full cursor-default overflow-auto bg-neutral-100/50 opacity-0 backdrop-blur-sm transition-opacity dark:bg-neutral-900/50"
-        >
-          <ul
-            class="mx-auto flex w-full max-w-7xl list-none flex-col overflow-visible px-6 py-6 text-end sm:px-14 sm:py-10 sm:pt-10 md:px-24 lg:px-32"
-          >
-            <li class="mb-1">
-              <span class="cursor-pointer hover:text-primary-600 dark:hover:text-primary-400"
-                ><span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
-</span></span
-              >
-            </li>
-            
-              
-                
-                <li class="group mb-1">
-                  
-                    <a
-                      href="/"
-                      title="Головна"
-                      onclick="close_menu()"
-                      
-                      ><span
-                          class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
-                          >Головна</span
-                        >
-                      </a
-                    >
-                  
-                </li>
-              
-                
-                <li class="group mb-1">
-                  
-                    <a
-                      href="/portfolio/"
-                      title="Портфоліо"
-                      onclick="close_menu()"
-                      
-                      ><span
-                          class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
-                          >Портфоліо</span
-                        >
-                      </a
-                    >
-                  
-                </li>
-              
-                
-                <li class="group mb-1">
-                  
-                    <a
-                      href="/pricelist/"
-                      title="Прайс-лист"
-                      onclick="close_menu()"
-                      
-                      ><span
-                          class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
-                          >Прайс-лист</span
-                        >
-                      </a
-                    >
-                  
-                </li>
-              
-                
-                <li class="group mb-1">
-                  
-                    
-                    
-                  
-                </li>
-              
-              
-            
-          </ul>
-        </div>
-      </label>
-      
-      <ul class="hidden list-none flex-row text-end sm:flex">
+    
+      <ul class="flex list-none flex-col text-end sm:flex-row">
         
           
             
-            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0">
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
               
                 <a
                   href="/"
@@ -289,7 +204,7 @@
             </li>
           
             
-            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0">
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
               
                 <a
                   href="/portfolio/"
@@ -305,7 +220,7 @@
             </li>
           
             
-            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0">
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
               
                 <a
                   href="/pricelist/"
@@ -321,7 +236,7 @@
             </li>
           
             
-            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0">
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
               
                 
                 
@@ -329,7 +244,6 @@
             </li>
           
           
-
         
       </ul>
     
@@ -340,8 +254,8 @@
     <div class="relative flex grow flex-col">
       <main id="main-content" class="grow">
         
-<section class="section">
-    <header>
+<section class="section px-4 py-12">
+  <header class="mb-10">
     
       <ol class="text-sm text-neutral-500 dark:text-neutral-400 print:hidden">
   
@@ -369,10 +283,12 @@
 
 
     
-    <h1 class="mt-0 mb-8  text-4xl font-extrabold text-neutral-900 dark:text-neutral">Портфоліо</h1>
+    <h1 class="mt-0 mb-6 text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-gray-100 leading-tight">Портфоліо</h1>
   </header>
 
-  <style>
+  
+  <div class="bg-white/80 dark:bg-gray-800/70 p-4 rounded overflow-hidden">
+    <style>
 .portfolio-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -413,33 +329,33 @@
 <div class="portfolio-grid">
    
     
+    <a class="portfolio-item" href="https://bronievm.github.io/portfolio/cars/">
+      
+        <img class='rounded-lg shadow-md transition-transform duration-200 hover:scale-105' src="/portfolio/cars/BMW-3Series-%D0%92%D0%A21139%D0%A1%D0%9A.jpg" alt="Авто">
+      
+      <div class="overlay">Авто</div>
+    </a>
+   
+    
+    <a class="portfolio-item" href="https://bronievm.github.io/portfolio/kpi-ficeween2025/">
+      
+        <img class='rounded-lg shadow-md transition-transform duration-200 hover:scale-105' src="/portfolio/kpi-ficeween2025/BM019113.jpg" alt="KPI FICEWeen 2025">
+      
+      <div class="overlay">KPI FICEWeen 2025</div>
+    </a>
+   
+    
     <a class="portfolio-item" href="https://bronievm.github.io/portfolio/olga_yuskovaa/">
       
-        <img src="/portfolio/olga_yuskovaa/BM015125.jpg" alt="Ольга">
+        <img class='rounded-lg shadow-md transition-transform duration-200 hover:scale-105' src="/portfolio/olga_yuskovaa/BM015125.jpg" alt="Ольга">
       
       <div class="overlay">Ольга</div>
     </a>
    
     
-    <a class="portfolio-item" href="https://bronievm.github.io/portfolio/kpi-graduation-mag-25/">
-      
-        <img src="/portfolio/kpi-graduation-mag-25/BM014499.jpg" alt="Випуск Магістрів (КПІ, ФІОТ, 2025)">
-      
-      <div class="overlay">Випуск Магістрів (КПІ, ФІОТ, 2025)</div>
-    </a>
-   
-    
-    <a class="portfolio-item" href="https://bronievm.github.io/portfolio/kpi-abitfest-2025/">
-      
-        <img src="/portfolio/kpi-abitfest-2025/BM012891.jpg" alt="KPI Abitfest 2025">
-      
-      <div class="overlay">KPI Abitfest 2025</div>
-    </a>
-   
-    
     <a class="portfolio-item" href="https://bronievm.github.io/portfolio/kpi-cosfest-25/">
       
-        <img src="/portfolio/kpi-cosfest-25/BM013590.jpg" alt="KPI COS FEST 2025">
+        <img class='rounded-lg shadow-md transition-transform duration-200 hover:scale-105' src="/portfolio/kpi-cosfest-25/BM013590.jpg" alt="KPI COS FEST 2025">
       
       <div class="overlay">KPI COS FEST 2025</div>
     </a>
@@ -447,7 +363,7 @@
     
     <a class="portfolio-item" href="https://bronievm.github.io/portfolio/shiera13/">
       
-        <img src="/portfolio/shiera13/shiera13-5.jpg" alt="Ада Вонг (Косплей)">
+        <img class='rounded-lg shadow-md transition-transform duration-200 hover:scale-105' src="/portfolio/shiera13/shiera13-5.jpg" alt="Ада Вонг (Косплей)">
       
       <div class="overlay">Ада Вонг (Косплей)</div>
     </a>
@@ -455,7 +371,7 @@
     
     <a class="portfolio-item" href="https://bronievm.github.io/portfolio/w.fly.agaric/">
       
-        <img src="/portfolio/w.fly.agaric/BM013457.jpg" alt="Анна">
+        <img class='rounded-lg shadow-md transition-transform duration-200 hover:scale-105' src="/portfolio/w.fly.agaric/BM013457.jpg" alt="Анна">
       
       <div class="overlay">Анна</div>
     </a>
@@ -463,7 +379,7 @@
     
     <a class="portfolio-item" href="https://bronievm.github.io/portfolio/maks_butiluk/">
       
-        <img src="/portfolio/maks_butiluk/BM013421.jpg" alt="Макс (косплей - Yamamoto Endo)">
+        <img class='rounded-lg shadow-md transition-transform duration-200 hover:scale-105' src="/portfolio/maks_butiluk/BM013421.jpg" alt="Макс (косплей - Yamamoto Endo)">
       
       <div class="overlay">Макс (косплей - Yamamoto Endo)</div>
     </a>
@@ -471,7 +387,7 @@
     
     <a class="portfolio-item" href="https://bronievm.github.io/portfolio/kytsi/">
       
-        <img src="/portfolio/kytsi/BM009835.jpg" alt="Анна">
+        <img class='rounded-lg shadow-md transition-transform duration-200 hover:scale-105' src="/portfolio/kytsi/BM009835.jpg" alt="Анна">
       
       <div class="overlay">Анна</div>
     </a>
@@ -479,7 +395,7 @@
     
     <a class="portfolio-item" href="https://bronievm.github.io/portfolio/kpi-posvyata-24/">
       
-        <img src="/portfolio/kpi-posvyata-24/BM009591.jpg" alt="Посвята в першокурсники (КПІ, ФІОТ, 2024)">
+        <img class='rounded-lg shadow-md transition-transform duration-200 hover:scale-105' src="/portfolio/kpi-posvyata-24/BM009591.jpg" alt="Посвята в першокурсники (КПІ, ФІОТ, 2024)">
       
       <div class="overlay">Посвята в першокурсники (КПІ, ФІОТ, 2024)</div>
     </a>
@@ -487,7 +403,7 @@
     
     <a class="portfolio-item" href="https://bronievm.github.io/portfolio/hpk-24/">
       
-        <img src="/portfolio/hpk-24/hpk-2024-3.jpg" alt="Деякі світлини з ХПФК (2024)">
+        <img class='rounded-lg shadow-md transition-transform duration-200 hover:scale-105' src="/portfolio/hpk-24/hpk-2024-3.jpg" alt="Деякі світлини з ХПФК (2024)">
       
       <div class="overlay">Деякі світлини з ХПФК (2024)</div>
     </a>
@@ -495,7 +411,7 @@
     
     <a class="portfolio-item" href="https://bronievm.github.io/portfolio/s_morozovv_v/in_forest/">
       
-        <img src="/portfolio/s_morozovv_v/in_forest/Winter-MS-5.jpg" alt="Сашко (у лісі)">
+        <img class='rounded-lg shadow-md transition-transform duration-200 hover:scale-105' src="/portfolio/s_morozovv_v/in_forest/Winter-MS-5.jpg" alt="Сашко (у лісі)">
       
       <div class="overlay">Сашко (у лісі)</div>
     </a>
@@ -503,7 +419,7 @@
     
     <a class="portfolio-item" href="https://bronievm.github.io/portfolio/svvsv/in_lib/">
       
-        <img src="/portfolio/svvsv/in_lib/DSC227.jpg" alt="Світланка (в бібліотеці)">
+        <img class='rounded-lg shadow-md transition-transform duration-200 hover:scale-105' src="/portfolio/svvsv/in_lib/DSC227.jpg" alt="Світланка (в бібліотеці)">
       
       <div class="overlay">Світланка (в бібліотеці)</div>
     </a>
@@ -511,7 +427,7 @@
     
     <a class="portfolio-item" href="https://bronievm.github.io/portfolio/svvsv/on_street/">
       
-        <img src="/portfolio/svvsv/on_street/DSC16183.jpg" alt="Світланка (на вулиці)">
+        <img class='rounded-lg shadow-md transition-transform duration-200 hover:scale-105' src="/portfolio/svvsv/on_street/DSC16183.jpg" alt="Світланка (на вулиці)">
       
       <div class="overlay">Світланка (на вулиці)</div>
     </a>
@@ -519,7 +435,7 @@
     
     <a class="portfolio-item" href="https://bronievm.github.io/portfolio/hekweey/">
       
-        <img src="/portfolio/hekweey/DSC12323.jpg" alt="Валерія">
+        <img class='rounded-lg shadow-md transition-transform duration-200 hover:scale-105' src="/portfolio/hekweey/DSC12323.jpg" alt="Валерія">
       
       <div class="overlay">Валерія</div>
     </a>
@@ -527,7 +443,7 @@
     
     <a class="portfolio-item" href="https://bronievm.github.io/portfolio/s_morozovv_v/in_field/">
       
-        <img src="/portfolio/s_morozovv_v/in_field/Pole-MS-5.jpg" alt="Сашко (у полі)">
+        <img class='rounded-lg shadow-md transition-transform duration-200 hover:scale-105' src="/portfolio/s_morozovv_v/in_field/Pole-MS-5.jpg" alt="Сашко (у полі)">
       
       <div class="overlay">Сашко (у полі)</div>
     </a>
@@ -535,7 +451,7 @@
     
     <a class="portfolio-item" href="https://bronievm.github.io/portfolio/s_morozovv_v/on_bike/">
       
-        <img src="/portfolio/s_morozovv_v/on_bike/Moto-MS-12.jpg" alt="Сашко (на мотоциклі)">
+        <img class='rounded-lg shadow-md transition-transform duration-200 hover:scale-105' src="/portfolio/s_morozovv_v/on_bike/Moto-MS-12.jpg" alt="Сашко (на мотоциклі)">
       
       <div class="overlay">Сашко (на мотоциклі)</div>
     </a>
@@ -543,7 +459,7 @@
     
     <a class="portfolio-item" href="https://bronievm.github.io/portfolio/yarmfest/">
       
-        <img src="/portfolio/yarmfest/yarmfest2022-1.jpg" alt="Yarmfest #2022">
+        <img class='rounded-lg shadow-md transition-transform duration-200 hover:scale-105' src="/portfolio/yarmfest/yarmfest2022-1.jpg" alt="Yarmfest #2022">
       
       <div class="overlay">Yarmfest #2022</div>
     </a>
@@ -551,7 +467,7 @@
     
     <a class="portfolio-item" href="https://bronievm.github.io/portfolio/bratt_ka/">
       
-        <img src="/portfolio/bratt_ka/DSC08243.jpg" alt="Катерина">
+        <img class='rounded-lg shadow-md transition-transform duration-200 hover:scale-105' src="/portfolio/bratt_ka/DSC08243.jpg" alt="Катерина">
       
       <div class="overlay">Катерина</div>
     </a>
@@ -559,21 +475,15 @@
     
     <a class="portfolio-item" href="https://bronievm.github.io/portfolio/silence._d/">
       
-        <img src="/portfolio/silence._d/DSC04754.jpg" alt="Ірина (в бібліотеці)">
+        <img class='rounded-lg shadow-md transition-transform duration-200 hover:scale-105' src="/portfolio/silence._d/DSC04754.jpg" alt="Ірина (в бібліотеці)">
       
       <div class="overlay">Ірина (в бібліотеці)</div>
-    </a>
-   
-    
-    <a class="portfolio-item" href="https://bronievm.github.io/portfolio/cars/">
-      
-        <img src="/portfolio/cars/BMW-3Series-%D0%92%D0%A21139%D0%A1%D0%9A.jpg" alt="Авто">
-      
-      <div class="overlay">Авто</div>
     </a>
   
 </div>
 
+
+  </div>
 </section>
 
       </main>

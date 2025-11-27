@@ -41,8 +41,8 @@
   <link
     type="text/css"
     rel="stylesheet"
-    href="/css/main.bundle.min.8831e4c05bf34fe91dc93100a13579733a8fe6e3d636268db8d8a3cf5f1b12f6.css"
-    integrity="sha256-iDHkwFvzT&#43;kdyTEAoTV5czqP5uPWNiaNuNijz18bEvY="
+    href="/css/main.bundle.min.c0531691c618688a5e168f905957c934fbe78d130348eaf4fc8075efd7067720.css"
+    integrity="sha256-wFMWkcYYaIpeFo&#43;QWVfJNPvnjRMDSOr0/IB179cGdyA="
   />
   
   
@@ -87,6 +87,7 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
+
   
   
   
@@ -223,7 +224,7 @@
       <header class="py-6 font-semibold text-neutral-900 dark:text-neutral sm:py-10 print:hidden">
   <nav class="flex items-start justify-between sm:items-center">
     
-    <div class="z-40 flex flex-row items-center">
+    <div class="flex flex-row items-center">
       
     <a href="/" class="mr-2">
       
@@ -239,98 +240,12 @@
 
     </div>
     
-      
-      <label id="menu-button" for="menu-controller" class="block sm:hidden">
-        <input type="checkbox" id="menu-controller" class="hidden" />
-        <div class="cursor-pointer hover:text-primary-600 dark:hover:text-primary-400">
-          <span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
-</span>
-        </div>
-        <div
-          id="menu-wrapper"
-          class="invisible fixed inset-0 z-30 m-auto h-full w-full cursor-default overflow-auto bg-neutral-100/50 opacity-0 backdrop-blur-sm transition-opacity dark:bg-neutral-900/50"
-        >
-          <ul
-            class="mx-auto flex w-full max-w-7xl list-none flex-col overflow-visible px-6 py-6 text-end sm:px-14 sm:py-10 sm:pt-10 md:px-24 lg:px-32"
-          >
-            <li class="mb-1">
-              <span class="cursor-pointer hover:text-primary-600 dark:hover:text-primary-400"
-                ><span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
-</span></span
-              >
-            </li>
-            
-              
-                
-                <li class="group mb-1">
-                  
-                    <a
-                      href="/"
-                      title="Головна"
-                      onclick="close_menu()"
-                      
-                      ><span
-                          class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
-                          >Головна</span
-                        >
-                      </a
-                    >
-                  
-                </li>
-              
-                
-                <li class="group mb-1">
-                  
-                    <a
-                      href="/portfolio/"
-                      title="Портфоліо"
-                      onclick="close_menu()"
-                      
-                      ><span
-                          class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
-                          >Портфоліо</span
-                        >
-                      </a
-                    >
-                  
-                </li>
-              
-                
-                <li class="group mb-1">
-                  
-                    <a
-                      href="/pricelist/"
-                      title="Прайс-лист"
-                      onclick="close_menu()"
-                      
-                      ><span
-                          class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
-                          >Прайс-лист</span
-                        >
-                      </a
-                    >
-                  
-                </li>
-              
-                
-                <li class="group mb-1">
-                  
-                    
-                    
-                  
-                </li>
-              
-              
-            
-          </ul>
-        </div>
-      </label>
-      
-      <ul class="hidden list-none flex-row text-end sm:flex">
+    
+      <ul class="flex list-none flex-col text-end sm:flex-row">
         
           
             
-            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0">
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
               
                 <a
                   href="/"
@@ -346,7 +261,7 @@
             </li>
           
             
-            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0">
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
               
                 <a
                   href="/portfolio/"
@@ -362,7 +277,7 @@
             </li>
           
             
-            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0">
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
               
                 <a
                   href="/pricelist/"
@@ -378,7 +293,7 @@
             </li>
           
             
-            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0">
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
               
                 
                 
@@ -386,7 +301,6 @@
             </li>
           
           
-
         
       </ul>
     
@@ -549,7 +463,7 @@
       target="_blank"
     >
       <img 
-        src="/portfolio/kpi-cosfest-25/BM013028_hu15752132052611420419.jpg" 
+        src="/portfolio/kpi-cosfest-25/BM013028_hu_cd4e2f7ede93d746.jpg" 
         width="800" 
         height="533" 
         loading="lazy"
@@ -567,7 +481,7 @@
       target="_blank"
     >
       <img 
-        src="/portfolio/kpi-cosfest-25/BM013063_hu7670502904543395161.jpg" 
+        src="/portfolio/kpi-cosfest-25/BM013063_hu_bb90818e8948e1e3.jpg" 
         width="800" 
         height="533" 
         loading="lazy"
@@ -585,7 +499,7 @@
       target="_blank"
     >
       <img 
-        src="/portfolio/kpi-cosfest-25/BM013073_hu975036958272429198.jpg" 
+        src="/portfolio/kpi-cosfest-25/BM013073_hu_e4a36eaf16c70af4.jpg" 
         width="800" 
         height="533" 
         loading="lazy"
@@ -603,7 +517,7 @@
       target="_blank"
     >
       <img 
-        src="/portfolio/kpi-cosfest-25/BM013081_hu5098969586032803698.jpg" 
+        src="/portfolio/kpi-cosfest-25/BM013081_hu_e310399aa3b55cf9.jpg" 
         width="800" 
         height="533" 
         loading="lazy"
@@ -621,7 +535,7 @@
       target="_blank"
     >
       <img 
-        src="/portfolio/kpi-cosfest-25/BM013106_hu15189410746747545488.jpg" 
+        src="/portfolio/kpi-cosfest-25/BM013106_hu_f65357aaad7b9d92.jpg" 
         width="800" 
         height="533" 
         loading="lazy"
@@ -639,7 +553,7 @@
       target="_blank"
     >
       <img 
-        src="/portfolio/kpi-cosfest-25/BM013109_hu6564319854332893809.jpg" 
+        src="/portfolio/kpi-cosfest-25/BM013109_hu_6285c9022897598e.jpg" 
         width="800" 
         height="533" 
         loading="lazy"
@@ -657,7 +571,7 @@
       target="_blank"
     >
       <img 
-        src="/portfolio/kpi-cosfest-25/BM013119_hu14471316506536669471.jpg" 
+        src="/portfolio/kpi-cosfest-25/BM013119_hu_4af02071c44512c2.jpg" 
         width="800" 
         height="533" 
         loading="lazy"
@@ -675,7 +589,7 @@
       target="_blank"
     >
       <img 
-        src="/portfolio/kpi-cosfest-25/BM013122_hu9532671915608500480.jpg" 
+        src="/portfolio/kpi-cosfest-25/BM013122_hu_9e00a6b5fc14e61.jpg" 
         width="800" 
         height="533" 
         loading="lazy"
@@ -693,7 +607,7 @@
       target="_blank"
     >
       <img 
-        src="/portfolio/kpi-cosfest-25/BM013158_hu7423430360263525340.jpg" 
+        src="/portfolio/kpi-cosfest-25/BM013158_hu_45ade11b79dc0854.jpg" 
         width="533" 
         height="800" 
         loading="lazy"
@@ -711,7 +625,7 @@
       target="_blank"
     >
       <img 
-        src="/portfolio/kpi-cosfest-25/BM013183_hu9970484066332795407.jpg" 
+        src="/portfolio/kpi-cosfest-25/BM013183_hu_2ed8d025a06c9299.jpg" 
         width="533" 
         height="800" 
         loading="lazy"
@@ -729,7 +643,7 @@
       target="_blank"
     >
       <img 
-        src="/portfolio/kpi-cosfest-25/BM013209_hu11845692088599830162.jpg" 
+        src="/portfolio/kpi-cosfest-25/BM013209_hu_8efaf42da8e0b65a.jpg" 
         width="533" 
         height="800" 
         loading="lazy"
@@ -747,7 +661,7 @@
       target="_blank"
     >
       <img 
-        src="/portfolio/kpi-cosfest-25/BM013223_hu16816544629858819062.jpg" 
+        src="/portfolio/kpi-cosfest-25/BM013223_hu_d3d61f6017f182f1.jpg" 
         width="533" 
         height="800" 
         loading="lazy"
@@ -765,7 +679,7 @@
       target="_blank"
     >
       <img 
-        src="/portfolio/kpi-cosfest-25/BM013226_hu4775936492606851797.jpg" 
+        src="/portfolio/kpi-cosfest-25/BM013226_hu_ce8b1571da7fb083.jpg" 
         width="800" 
         height="533" 
         loading="lazy"
@@ -783,7 +697,7 @@
       target="_blank"
     >
       <img 
-        src="/portfolio/kpi-cosfest-25/BM013254_hu7659619070206052839.jpg" 
+        src="/portfolio/kpi-cosfest-25/BM013254_hu_709414db799c89ae.jpg" 
         width="800" 
         height="533" 
         loading="lazy"
@@ -801,7 +715,7 @@
       target="_blank"
     >
       <img 
-        src="/portfolio/kpi-cosfest-25/BM013258_hu11925140615261793179.jpg" 
+        src="/portfolio/kpi-cosfest-25/BM013258_hu_55dec84a9e112108.jpg" 
         width="800" 
         height="533" 
         loading="lazy"
@@ -819,7 +733,7 @@
       target="_blank"
     >
       <img 
-        src="/portfolio/kpi-cosfest-25/BM013264_hu535015846825794312.jpg" 
+        src="/portfolio/kpi-cosfest-25/BM013264_hu_84c6f1cd58f3d0ea.jpg" 
         width="800" 
         height="533" 
         loading="lazy"
@@ -837,7 +751,7 @@
       target="_blank"
     >
       <img 
-        src="/portfolio/kpi-cosfest-25/BM013273_hu7672672628429249761.jpg" 
+        src="/portfolio/kpi-cosfest-25/BM013273_hu_9fca2efc1dd7937.jpg" 
         width="533" 
         height="800" 
         loading="lazy"
@@ -855,7 +769,7 @@
       target="_blank"
     >
       <img 
-        src="/portfolio/kpi-cosfest-25/BM013281_hu13151469068641958542.jpg" 
+        src="/portfolio/kpi-cosfest-25/BM013281_hu_9a3be1b48796102a.jpg" 
         width="533" 
         height="800" 
         loading="lazy"
@@ -873,7 +787,7 @@
       target="_blank"
     >
       <img 
-        src="/portfolio/kpi-cosfest-25/BM013299_hu16445253646487986165.jpg" 
+        src="/portfolio/kpi-cosfest-25/BM013299_hu_7a248ca5396c7661.jpg" 
         width="533" 
         height="800" 
         loading="lazy"
@@ -891,7 +805,7 @@
       target="_blank"
     >
       <img 
-        src="/portfolio/kpi-cosfest-25/BM013320_hu14229391150511919819.jpg" 
+        src="/portfolio/kpi-cosfest-25/BM013320_hu_f3c307ce5586262f.jpg" 
         width="533" 
         height="800" 
         loading="lazy"
@@ -909,7 +823,7 @@
       target="_blank"
     >
       <img 
-        src="/portfolio/kpi-cosfest-25/BM013334_hu6365613561141148354.jpg" 
+        src="/portfolio/kpi-cosfest-25/BM013334_hu_369f7f9b82041f24.jpg" 
         width="533" 
         height="800" 
         loading="lazy"
@@ -927,7 +841,7 @@
       target="_blank"
     >
       <img 
-        src="/portfolio/kpi-cosfest-25/BM013339_hu5823698494618814759.jpg" 
+        src="/portfolio/kpi-cosfest-25/BM013339_hu_f098388778aff680.jpg" 
         width="533" 
         height="800" 
         loading="lazy"
@@ -945,7 +859,7 @@
       target="_blank"
     >
       <img 
-        src="/portfolio/kpi-cosfest-25/BM013362_hu5848278871775264777.jpg" 
+        src="/portfolio/kpi-cosfest-25/BM013362_hu_6b685262c8dd44a4.jpg" 
         width="800" 
         height="533" 
         loading="lazy"
@@ -963,7 +877,7 @@
       target="_blank"
     >
       <img 
-        src="/portfolio/kpi-cosfest-25/BM013378_hu15912608276266665253.jpg" 
+        src="/portfolio/kpi-cosfest-25/BM013378_hu_7d2d21ee68a17350.jpg" 
         width="800" 
         height="533" 
         loading="lazy"
@@ -981,7 +895,7 @@
       target="_blank"
     >
       <img 
-        src="/portfolio/kpi-cosfest-25/BM013538_hu9802731042029452535.jpg" 
+        src="/portfolio/kpi-cosfest-25/BM013538_hu_aa8b4a56ef869764.jpg" 
         width="800" 
         height="533" 
         loading="lazy"
@@ -999,7 +913,7 @@
       target="_blank"
     >
       <img 
-        src="/portfolio/kpi-cosfest-25/BM013556_hu17654645875583110764.jpg" 
+        src="/portfolio/kpi-cosfest-25/BM013556_hu_a62aa7dbfb30fe1d.jpg" 
         width="800" 
         height="533" 
         loading="lazy"
@@ -1017,7 +931,7 @@
       target="_blank"
     >
       <img 
-        src="/portfolio/kpi-cosfest-25/BM013590_hu8483053556520807202.jpg" 
+        src="/portfolio/kpi-cosfest-25/BM013590_hu_1765651d4974052.jpg" 
         width="800" 
         height="533" 
         loading="lazy"
@@ -1035,7 +949,7 @@
       target="_blank"
     >
       <img 
-        src="/portfolio/kpi-cosfest-25/BM013647_hu15254166916702174959.jpg" 
+        src="/portfolio/kpi-cosfest-25/BM013647_hu_8d6478c2143b12d8.jpg" 
         width="800" 
         height="533" 
         loading="lazy"
@@ -1053,7 +967,7 @@
       target="_blank"
     >
       <img 
-        src="/portfolio/kpi-cosfest-25/BM013655_hu701756994713279277.jpg" 
+        src="/portfolio/kpi-cosfest-25/BM013655_hu_650eaf636df7ee95.jpg" 
         width="800" 
         height="533" 
         loading="lazy"
@@ -1071,7 +985,7 @@
       target="_blank"
     >
       <img 
-        src="/portfolio/kpi-cosfest-25/BM013697_hu5937545181280685056.jpg" 
+        src="/portfolio/kpi-cosfest-25/BM013697_hu_3d28f70b4aa2d92.jpg" 
         width="800" 
         height="533" 
         loading="lazy"
@@ -1089,7 +1003,7 @@
       target="_blank"
     >
       <img 
-        src="/portfolio/kpi-cosfest-25/BM013717_hu716832483328100680.jpg" 
+        src="/portfolio/kpi-cosfest-25/BM013717_hu_4d037bff2aa5ea7e.jpg" 
         width="800" 
         height="533" 
         loading="lazy"
@@ -1185,8 +1099,8 @@ window.addEventListener('DOMContentLoaded', () => {
   if (!gallery) return;
 
   $(gallery).justifiedGallery({
-    rowHeight: 515,
-    maxRowHeight: 800,
+    rowHeight: 400,
+    maxRowHeight: 490,
     justifyThreshold: 0.95,
     margins: 5,
     captions: false,
