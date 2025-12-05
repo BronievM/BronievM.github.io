@@ -7,20 +7,20 @@
     <generator>Hugo</generator>
     <language>uk</language>
     <copyright>©Maksym Kulikov (aka Broniev), 2025</copyright>
-    <lastBuildDate>Thu, 27 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 31 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://bronievm.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Авто</title>
-      <link>https://bronievm.github.io/portfolio/cars/</link>
-      <pubDate>Thu, 27 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://bronievm.github.io/portfolio/cars/</guid>
-      <description></description>
-    </item>
     <item>
       <title>KPI FICEWeen 2025</title>
       <link>https://bronievm.github.io/portfolio/kpi-ficeween2025/</link>
       <pubDate>Fri, 31 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://bronievm.github.io/portfolio/kpi-ficeween2025/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Допрем&#39;єрний показ &#39;60 років Ford Transit&#39; від Транспортних історій</title>
+      <link>https://bronievm.github.io/portfolio/transitpidohy-th25/</link>
+      <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://bronievm.github.io/portfolio/transitpidohy-th25/</guid>
       <description></description>
     </item>
     <item>
@@ -105,6 +105,13 @@
       <link>https://bronievm.github.io/portfolio/svvsv/in_lib/</link>
       <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
       <guid>https://bronievm.github.io/portfolio/svvsv/in_lib/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Авто</title>
+      <link>https://bronievm.github.io/portfolio/cars/</link>
+      <pubDate>Sun, 27 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://bronievm.github.io/portfolio/cars/</guid>
       <description></description>
     </item>
     <item>
