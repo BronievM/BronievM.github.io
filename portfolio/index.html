@@ -289,11 +289,26 @@
   
   <div class="bg-white/80 dark:bg-gray-800/70 p-4 rounded overflow-hidden">
     <style>
+* {
+  box-sizing: border-box;
+}
+
 .portfolio-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  gap: 10px;
+   
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  gap: 15px; 
 }
+
+@media (max-width: 480px) {
+  .portfolio-grid {
+    grid-template-columns: 1fr; 
+    gap: 15px;
+     
+    padding: 0; 
+  }
+}
+
 .portfolio-item {
   position: relative;
   aspect-ratio: 1 / 1;
@@ -301,7 +316,9 @@
   text-decoration: none;
   color: inherit;
   display: block;
+  border-radius: 8px;  
 }
+
 .portfolio-item img {
   width: 100%;
   height: 100%;
@@ -309,24 +326,43 @@
   transition: transform 0.3s ease;
   display: block;
 }
+
 .portfolio-item:hover img {
   transform: scale(1.05);
 }
+
 .portfolio-item .overlay {
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0,0,0,0.5);
+  background: rgba(0, 0, 0, 0.6);
   color: white;
-  padding: 2px;
-  font-size: 0.9rem;
+  padding: 12px;  
+  font-size: 1rem;  
   text-align: center;
+  word-wrap: break-word;
+  white-space: normal; 
 }
-
 </style>
 
 <div class="portfolio-grid">
+   
+    
+    <a class="portfolio-item" href="https://bronievm.github.io/portfolio/olya-and-sonya/">
+      
+        <img class='rounded-lg shadow-md transition-transform duration-200 hover:scale-105' src="/portfolio/olya-and-sonya/BM023851.jpg" alt="Ольга і Софія">
+      
+      <div class="overlay">Ольга і Софія</div>
+    </a>
+   
+    
+    <a class="portfolio-item" href="https://bronievm.github.io/portfolio/zirnytsya-vertep-shanovni/">
+      
+        <img class='rounded-lg shadow-md transition-transform duration-200 hover:scale-105' src="/portfolio/zirnytsya-vertep-shanovni/BM022025.jpg" alt="Благодійний вертеп (група &#34;Шановні&#34;)">
+      
+      <div class="overlay">Благодійний вертеп (група &#34;Шановні&#34;)</div>
+    </a>
    
     
     <a class="portfolio-item" href="https://bronievm.github.io/portfolio/kpi-ficeween2025/">
@@ -342,6 +378,14 @@
         <img class='rounded-lg shadow-md transition-transform duration-200 hover:scale-105' src="/portfolio/transitpidohy-th25/BM018790.jpg" alt="Допрем&#39;єрний показ &#39;60 років Ford Transit&#39; від Транспортних історій">
       
       <div class="overlay">Допрем&#39;єрний показ &#39;60 років Ford Transit&#39; від Транспортних історій</div>
+    </a>
+   
+    
+    <a class="portfolio-item" href="https://bronievm.github.io/portfolio/sonkapow/">
+      
+        <img class='rounded-lg shadow-md transition-transform duration-200 hover:scale-105' src="/portfolio/sonkapow/BM017168.jpg" alt="Софія">
+      
+      <div class="overlay">Софія</div>
     </a>
    
     
@@ -425,14 +469,6 @@
     </a>
    
     
-    <a class="portfolio-item" href="https://bronievm.github.io/portfolio/cars/">
-      
-        <img class='rounded-lg shadow-md transition-transform duration-200 hover:scale-105' src="/portfolio/cars/BMW-3Series-%D0%92%D0%A21139%D0%A1%D0%9A.jpg" alt="Авто">
-      
-      <div class="overlay">Авто</div>
-    </a>
-   
-    
     <a class="portfolio-item" href="https://bronievm.github.io/portfolio/svvsv/on_street/">
       
         <img class='rounded-lg shadow-md transition-transform duration-200 hover:scale-105' src="/portfolio/svvsv/on_street/DSC16183.jpg" alt="Світланка (на вулиці)">
@@ -487,6 +523,14 @@
       
       <div class="overlay">Ірина (в бібліотеці)</div>
     </a>
+   
+    
+    <a class="portfolio-item" href="https://bronievm.github.io/portfolio/cars/">
+      
+        <img class='rounded-lg shadow-md transition-transform duration-200 hover:scale-105' src="/portfolio/cars/BMW-3Series-%D0%92%D0%A21139%D0%A1%D0%9A.jpg" alt="Авто">
+      
+      <div class="overlay">Авто</div>
+    </a>
   
 </div>
 
@@ -518,7 +562,7 @@
       
       
         <p class="text-sm text-neutral-500 dark:text-neutral-400">
-            ©Maksym Kulikov (aka Broniev), 2025
+            ©Maksym Kulikov (aka Broniev), 2026
         </p>
       
       
