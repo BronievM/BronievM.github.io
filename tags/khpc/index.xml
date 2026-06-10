@@ -11,23 +11,58 @@
     <atom:link href="https://bronievm.github.io/tags/khpc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Деякі світлини з ХПФК (2024)</title>
-      <link>https://bronievm.github.io/portfolio/hpk-24/</link>
+      <link>https://bronievm.github.io/portfolio/events/hpk-24/</link>
       <pubDate>Wed, 22 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://bronievm.github.io/portfolio/hpk-24/</guid>
+      <guid>https://bronievm.github.io/portfolio/events/hpk-24/</guid>
       <description></description>
     </item>
     <item>
-      <title>Деякі світлини з ХПФК (2023)</title>
-      <link>https://bronievm.github.io/portfolio/hpk-23/</link>
-      <pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://bronievm.github.io/portfolio/hpk-23/</guid>
+      <title>Спортивні змагання в ХПК (2023)</title>
+      <link>https://bronievm.github.io/portfolio/events/sportcomp-hpk23/</link>
+      <pubDate>Wed, 08 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://bronievm.github.io/portfolio/events/sportcomp-hpk23/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Благодійна акція «Коло задля Перемоги!»</title>
+      <link>https://bronievm.github.io/portfolio/events/runcomp-hpk/</link>
+      <pubDate>Tue, 19 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://bronievm.github.io/portfolio/events/runcomp-hpk/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>День вишиванки ХПК 2023</title>
+      <link>https://bronievm.github.io/portfolio/events/vyshday-hpk23/</link>
+      <pubDate>Tue, 19 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://bronievm.github.io/portfolio/events/vyshday-hpk23/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Змагання до дня комп&#39;ютерника</title>
+      <link>https://bronievm.github.io/portfolio/events/tournaments-to-day-of-ce-hpk23/</link>
+      <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://bronievm.github.io/portfolio/events/tournaments-to-day-of-ce-hpk23/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Зустріч з ДСНС</title>
+      <link>https://bronievm.github.io/portfolio/events/dsns-meet-hpk23/</link>
+      <pubDate>Wed, 12 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://bronievm.github.io/portfolio/events/dsns-meet-hpk23/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Тренування використання турнікетів</title>
+      <link>https://bronievm.github.io/portfolio/events/tournicets-training-hpk23/</link>
+      <pubDate>Wed, 05 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://bronievm.github.io/portfolio/events/tournicets-training-hpk23/</guid>
       <description></description>
     </item>
     <item>
       <title>Деякі світлини з ХПФК (2022)</title>
-      <link>https://bronievm.github.io/portfolio/hpk-22/</link>
+      <link>https://bronievm.github.io/portfolio/events/hpk-22/</link>
       <pubDate>Sun, 22 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://bronievm.github.io/portfolio/hpk-22/</guid>
+      <guid>https://bronievm.github.io/portfolio/events/hpk-22/</guid>
       <description></description>
     </item>
   </channel>

@@ -7,34 +7,41 @@
     <generator>Hugo</generator>
     <language>uk</language>
     <copyright>©Maksym Kulikov (aka Broniev), 2026</copyright>
-    <lastBuildDate>Sat, 28 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 21 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://bronievm.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Kyiv</title>
-      <link>https://bronievm.github.io/tags/kyiv/</link>
-      <pubDate>Sat, 28 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://bronievm.github.io/tags/kyiv/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>People</title>
-      <link>https://bronievm.github.io/tags/people/</link>
-      <pubDate>Sat, 28 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://bronievm.github.io/tags/people/</guid>
+      <title>Events</title>
+      <link>https://bronievm.github.io/tags/events/</link>
+      <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://bronievm.github.io/tags/events/</guid>
       <description></description>
     </item>
     <item>
       <title>KPI</title>
       <link>https://bronievm.github.io/tags/kpi/</link>
-      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
       <guid>https://bronievm.github.io/tags/kpi/</guid>
       <description></description>
     </item>
     <item>
       <title>KPI.FICE</title>
       <link>https://bronievm.github.io/tags/kpi.fice/</link>
-      <pubDate>Fri, 31 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
       <guid>https://bronievm.github.io/tags/kpi.fice/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kyiv</title>
+      <link>https://bronievm.github.io/tags/kyiv/</link>
+      <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://bronievm.github.io/tags/kyiv/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Peoples</title>
+      <link>https://bronievm.github.io/tags/peoples/</link>
+      <pubDate>Sat, 28 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://bronievm.github.io/tags/peoples/</guid>
       <description></description>
     </item>
     <item>
@@ -136,17 +143,10 @@
       <description></description>
     </item>
     <item>
-      <title>#YARMFEST</title>
-      <link>https://bronievm.github.io/tags/%23yarmfest/</link>
+      <title>YARMFEST</title>
+      <link>https://bronievm.github.io/tags/yarmfest/</link>
       <pubDate>Sun, 22 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://bronievm.github.io/tags/%23yarmfest/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Khmelnytskiy</title>
-      <link>https://bronievm.github.io/tags/khmelnytskiy/</link>
-      <pubDate>Sat, 19 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>https://bronievm.github.io/tags/khmelnytskiy/</guid>
+      <guid>https://bronievm.github.io/tags/yarmfest/</guid>
       <description></description>
     </item>
     <item>

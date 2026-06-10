@@ -7,20 +7,62 @@
     <generator>Hugo</generator>
     <language>uk</language>
     <copyright>©Maksym Kulikov (aka Broniev), 2026</copyright>
-    <lastBuildDate>Fri, 31 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 21 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://bronievm.github.io/tags/kpi.fice/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Олімпіада з програмування </title>
+      <link>https://bronievm.github.io/portfolio/events/progolimpfice26/</link>
+      <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://bronievm.github.io/portfolio/events/progolimpfice26/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DAY F 2026</title>
+      <link>https://bronievm.github.io/portfolio/events/dayf2026/</link>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://bronievm.github.io/portfolio/events/dayf2026/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>FICE Royal Ball (2026)</title>
+      <link>https://bronievm.github.io/portfolio/events/ficeroyalball2026/</link>
+      <pubDate>Sat, 28 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://bronievm.github.io/portfolio/events/ficeroyalball2026/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Лекція про генеративний ШІ</title>
+      <link>https://bronievm.github.io/portfolio/events/generativeai/</link>
+      <pubDate>Sat, 28 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://bronievm.github.io/portfolio/events/generativeai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>FICEExpo 2026</title>
+      <link>https://bronievm.github.io/portfolio/events/ficeexpo26/</link>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://bronievm.github.io/portfolio/events/ficeexpo26/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>65-річчя кафедри ОТ</title>
+      <link>https://bronievm.github.io/portfolio/events/otday65/</link>
+      <pubDate>Wed, 03 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://bronievm.github.io/portfolio/events/otday65/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>KPI FICEWeen 2025</title>
-      <link>https://bronievm.github.io/portfolio/kpi-ficeween2025/</link>
+      <link>https://bronievm.github.io/portfolio/events/kpi-ficeween2025/</link>
       <pubDate>Fri, 31 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://bronievm.github.io/portfolio/kpi-ficeween2025/</guid>
+      <guid>https://bronievm.github.io/portfolio/events/kpi-ficeween2025/</guid>
       <description></description>
     </item>
     <item>
       <title>Посвята в першокурсники (КПІ, ФІОТ, 2024)</title>
-      <link>https://bronievm.github.io/portfolio/kpi-posvyata-24/</link>
+      <link>https://bronievm.github.io/portfolio/events/kpi-posvyata-24/</link>
       <pubDate>Sat, 14 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://bronievm.github.io/portfolio/kpi-posvyata-24/</guid>
+      <guid>https://bronievm.github.io/portfolio/events/kpi-posvyata-24/</guid>
       <description></description>
     </item>
   </channel>
