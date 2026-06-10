@@ -219,7 +219,12 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'G-RZNM0NLTWX');
-</script>
+</script><meta property="og:image" content="https://bronievm.github.io/portfolio/events/sportcomp-hpk23/DSC29849.jpg">
+<meta property="og:title" content="Спортивні змагання в ХПК (2023)">
+<meta property="og:url" content="https://bronievm.github.io/portfolio/events/sportcomp-hpk23/">
+<meta property="og:type" content="website">
+<meta property="og:description" content="світлинки з спортивних змаганнь">
+<meta name="twitter:card" content="summary_large_image">
   
   
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
@@ -559,76 +564,23 @@
 
 <style>
 #loading-overlay {
-  position: fixed;
-  top: 0; left: 0;
-  width: 100vw;
-  height: 100vh;
-  background: rgba(0,0,0,0.8);
-  z-index: 9999;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: fixed; top: 0; left: 0; width: 100vw; height: 100vh;
+  background: rgba(0,0,0,0.8); z-index: 9999;
+  display: flex; justify-content: center; align-items: center;
 }
 .spinner {
-  border: 6px solid #999;
-  border-top: 6px solid #fff;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
+  border: 6px solid #999; border-top: 6px solid #fff;
+  border-radius: 50%; width: 50px; height: 50px;
   animation: spin 1s linear infinite;
 }
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
-
-.justified-gallery {
-  box-sizing: border-box;
-  max-width: 100%;
-}
-
- 
-.justified-gallery a.jg-custom-link {
-  border-radius: 8px;
-  overflow: hidden;  
-  display: block;
-}
-
-.justified-gallery a.jg-custom-link img {
-  cursor: zoom-in;
-  transform-origin: center center;
-  transition: transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
-}
-
-.justified-gallery a.jg-custom-link:hover img {
-  transform: scale(1.05);
-}
-
-.pswp__custom-download-button {
-  position: absolute;
-  top: 15px;
-  right: 110px;
-  z-index: 100;
-  width: 32px;
-  height: 32px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: none;
-  border: none;
-  cursor: pointer;
-  padding: 0;
-  opacity: 0.8;
-  transition: opacity 0.2s ease;
-}
-.pswp__custom-download-button:hover {
-  opacity: 1;
-}
-.pswp__custom-download-button svg {
-  width: 20px;
-  height: 20px;
-  stroke: white;
-}
+@keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+.justified-gallery { box-sizing: border-box; max-width: 100%; }
+.justified-gallery a.jg-custom-link { border-radius: 8px; overflow: hidden; display: block; }
+.justified-gallery a.jg-custom-link img { cursor: zoom-in; transform-origin: center center; transition: transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1); }
+.justified-gallery a.jg-custom-link:hover img { transform: scale(1.05); }
+.pswp__custom-download-button { position: absolute; top: 15px; right: 110px; z-index: 100; width: 32px; height: 32px; display: flex; align-items: center; justify-content: center; background: none; border: none; cursor: pointer; padding: 0; opacity: 0.8; transition: opacity 0.2s ease; }
+.pswp__custom-download-button:hover { opacity: 1; }
+.pswp__custom-download-button svg { width: 20px; height: 20px; stroke: white; }
 </style>
 
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
@@ -641,23 +593,29 @@ import PhotoSwipe from 'https://unpkg.com/photoswipe@5/dist/photoswipe.esm.min.j
 const gallery = document.querySelector('.justified-gallery');
 const overlay = document.getElementById('loading-overlay');
 
+
+const safetyTimer = setTimeout(() => {
+    if (overlay) overlay.style.display = 'none';
+    if (gallery) gallery.style.visibility = 'visible';
+}, 5000);
+
 window.addEventListener('DOMContentLoaded', () => {
   if (!gallery) return;
 
-  
   const isMobile = window.innerWidth < 768;
 
-  $(gallery).justifiedGallery({
+  jQuery(gallery).justifiedGallery({
     rowHeight: isMobile ? 220 : 350, 
     maxRowHeight: isMobile ? 300 : 500,
     justifyThreshold: 0.85,
-    margins: 10, 
+    margins: 10,
     captions: false,
-    lastRow: 'center' , 
+    lastRow: 'center',
     waitThumbnailsLoad: false,
     selector: 'a.jg-custom-link',
     rel: 'gallery1'
   }).on('jg.complete', () => {
+    clearTimeout(safetyTimer); 
     overlay.style.display = 'none';
     gallery.style.visibility = 'visible';
 
@@ -692,7 +650,6 @@ window.addEventListener('DOMContentLoaded', () => {
         }
       });
     });
-
     lightbox.init();
   });
 });
