@@ -7,48 +7,83 @@
     <generator>Hugo</generator>
     <language>uk</language>
     <copyright>©Maksym Kulikov (aka Broniev), 2026</copyright>
-    <lastBuildDate>Thu, 21 May 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 21 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://bronievm.github.io/tags/kyiv/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Дар&#39;я</title>
+      <link>https://bronievm.github.io/portfolio/peoples/odarsak/</link>
+      <pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://bronievm.github.io/portfolio/peoples/odarsak/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Мавки</title>
+      <link>https://bronievm.github.io/portfolio/peoples/tonyyxxa/</link>
+      <pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://bronievm.github.io/portfolio/peoples/tonyyxxa/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Юліанна</title>
+      <link>https://bronievm.github.io/portfolio/peoples/neproledi/</link>
+      <pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://bronievm.github.io/portfolio/peoples/neproledi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Івана Купала</title>
+      <link>https://bronievm.github.io/portfolio/events/kpi-ficeivkup26/</link>
+      <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://bronievm.github.io/portfolio/events/kpi-ficeivkup26/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Лекція про благодійність від Сергія Притули</title>
+      <link>https://bronievm.github.io/portfolio/events/kpi-charitylect26/</link>
+      <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://bronievm.github.io/portfolio/events/kpi-charitylect26/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Олімпіада з програмування </title>
-      <link>https://bronievm.github.io/portfolio/events/progolimpfice26/</link>
+      <link>https://bronievm.github.io/portfolio/events/kpi-progolimpfice26/</link>
       <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://bronievm.github.io/portfolio/events/progolimpfice26/</guid>
+      <guid>https://bronievm.github.io/portfolio/events/kpi-progolimpfice26/</guid>
       <description></description>
     </item>
     <item>
       <title>День донора КПІ (14.05.26)</title>
-      <link>https://bronievm.github.io/portfolio/events/donorsdaykpi_14.05.26/</link>
+      <link>https://bronievm.github.io/portfolio/events/kpi-donorsdaykpi_14.05.26/</link>
       <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://bronievm.github.io/portfolio/events/donorsdaykpi_14.05.26/</guid>
+      <guid>https://bronievm.github.io/portfolio/events/kpi-donorsdaykpi_14.05.26/</guid>
       <description></description>
     </item>
     <item>
       <title>DAY F 2026</title>
-      <link>https://bronievm.github.io/portfolio/events/dayf2026/</link>
+      <link>https://bronievm.github.io/portfolio/events/kpi-dayf2026/</link>
       <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://bronievm.github.io/portfolio/events/dayf2026/</guid>
+      <guid>https://bronievm.github.io/portfolio/events/kpi-dayf2026/</guid>
       <description></description>
     </item>
     <item>
       <title>День відкритих дверей КПІ</title>
-      <link>https://bronievm.github.io/portfolio/events/opendoorday26/</link>
+      <link>https://bronievm.github.io/portfolio/events/kpi-opendoorday26/</link>
       <pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://bronievm.github.io/portfolio/events/opendoorday26/</guid>
+      <guid>https://bronievm.github.io/portfolio/events/kpi-opendoorday26/</guid>
       <description></description>
     </item>
     <item>
       <title>FICE Royal Ball (2026)</title>
-      <link>https://bronievm.github.io/portfolio/events/ficeroyalball2026/</link>
+      <link>https://bronievm.github.io/portfolio/events/kpi-ficeroyalball2026/</link>
       <pubDate>Sat, 28 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://bronievm.github.io/portfolio/events/ficeroyalball2026/</guid>
+      <guid>https://bronievm.github.io/portfolio/events/kpi-ficeroyalball2026/</guid>
       <description></description>
     </item>
     <item>
       <title>Лекція про генеративний ШІ</title>
-      <link>https://bronievm.github.io/portfolio/events/generativeai/</link>
+      <link>https://bronievm.github.io/portfolio/events/kpi-generativeai/</link>
       <pubDate>Sat, 28 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://bronievm.github.io/portfolio/events/generativeai/</guid>
+      <guid>https://bronievm.github.io/portfolio/events/kpi-generativeai/</guid>
       <description></description>
     </item>
     <item>
@@ -60,9 +95,9 @@
     </item>
     <item>
       <title>FICEExpo 2026</title>
-      <link>https://bronievm.github.io/portfolio/events/ficeexpo26/</link>
+      <link>https://bronievm.github.io/portfolio/events/kpi-ficeexpo26/</link>
       <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://bronievm.github.io/portfolio/events/ficeexpo26/</guid>
+      <guid>https://bronievm.github.io/portfolio/events/kpi-ficeexpo26/</guid>
       <description></description>
     </item>
     <item>
@@ -74,16 +109,16 @@
     </item>
     <item>
       <title>65-річчя кафедри ОТ</title>
-      <link>https://bronievm.github.io/portfolio/events/otday65/</link>
+      <link>https://bronievm.github.io/portfolio/events/kpi-otday65/</link>
       <pubDate>Wed, 03 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://bronievm.github.io/portfolio/events/otday65/</guid>
+      <guid>https://bronievm.github.io/portfolio/events/kpi-otday65/</guid>
       <description></description>
     </item>
     <item>
       <title>KPI beAheadExpo 2025</title>
-      <link>https://bronievm.github.io/portfolio/events/kpibeaheadexpo25/</link>
+      <link>https://bronievm.github.io/portfolio/events/kpi-beaheadexpo25/</link>
       <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://bronievm.github.io/portfolio/events/kpibeaheadexpo25/</guid>
+      <guid>https://bronievm.github.io/portfolio/events/kpi-beaheadexpo25/</guid>
       <description></description>
     </item>
     <item>
@@ -95,16 +130,16 @@
     </item>
     <item>
       <title>Допрем&#39;єрний показ &#39;60 років Ford Transit&#39; від Транспортних історій</title>
-      <link>https://bronievm.github.io/portfolio/events/transitpidohy-th25/</link>
+      <link>https://bronievm.github.io/portfolio/events/transitpidmohy-th25/</link>
       <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://bronievm.github.io/portfolio/events/transitpidohy-th25/</guid>
+      <guid>https://bronievm.github.io/portfolio/events/transitpidmohy-th25/</guid>
       <description></description>
     </item>
     <item>
       <title>ЦКС Фест 2025</title>
-      <link>https://bronievm.github.io/portfolio/events/cksfest25/</link>
+      <link>https://bronievm.github.io/portfolio/events/kpi-cksfest25/</link>
       <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://bronievm.github.io/portfolio/events/cksfest25/</guid>
+      <guid>https://bronievm.github.io/portfolio/events/kpi-cksfest25/</guid>
       <description></description>
     </item>
     <item>
